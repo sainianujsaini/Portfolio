@@ -552,8 +552,20 @@ h3.my-profession{
     color : var(--skin-color);
     transition: all 0.3s ease;
 }
-.project .project-item .project-item-inner:hover .icon{
-    background: var(--skin-color);
+.project .project-item .project-item-inner .icon img{
+    height : 50px;
+    width : 50px;
+}
+.project .project-item .project-item-inner:hover{
+    /* background: var(--skin-color); */
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+.project .project-item .project-item-inner:hover img{
+    /* background: var(--skin-color); */
+    height : 55px;
+    width : 55px;
+    transition: all 0.3s ease;
 }
 .project .project-item .project-item-inner:hover .icon .fa{
     font-size : 25px;
