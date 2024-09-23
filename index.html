@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style-switcher.css" />
+    <title>Portfolio</title>
+
+    <link
+      rel="stylesheet"
+      href="css/skins/color-1.css"
+      class="alternate-style"
+      title="color-1"
+    />
+    <link
+      rel="stylesheet"
+      href="css/skins/color-2.css"
+      class="alternate-style"
+      title="color-2"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="css/skins/color-3.css"
+      class="alternate-style"
+      title="color-3"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="css/skins/color-4.css"
+      class="alternate-style"
+      title="color-4"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="css/skins/color-5.css"
+      class="alternate-style"
+      title="color-5"
+      disabled
+    />
+  </head>
+  <body>
+    <div class="main-container">
+      <!-- fixed and align -->
+      <div class="aside">
+        <!-- absolute -->
+        <div class="logo">
+          <a href="#home"><span>A</span>nuj</a>
+        </div>
+        <!-- fixed -->
+        <div class="nav-toogler">
+          <span></span>
+        </div>
+        <ul class="nav">
+          <li>
+            <a href="#home" class="active">
+              <i class="fa-solid fa-home"></i>
+              HOME</a
+            >
+          </li>
+          <li>
+            <a href="#about"><i class="fa-solid fa-user"> </i>About</a>
+          </li>
+          <li>
+            <a href="#project"><i class="fa-solid fa-gear"> </i>Projects</a>
+          </li>
+          <li>
+            <a href="#portfolio"
+              ><i class="fa-solid fa-trophy"> </i>Achievements</a
+            >
+          </li>
+          <li>
+            <a href="#contact"><i class="fa-solid fa-comments"></i>Contact</a>
+          </li>
+        </ul>
+      </div>
+      <div class="main-content">
+        <!-- Home section starts-->
+        <!-- All sections are block -->
+        <!-- home is flex -->
+        <section class="home section active" id="home">
+          <div class="container">
+            <!-- All row are flex -->
+            <div class="row">
+              <!-- 60% flex -->
+              <div class="home-info padd-15">
+                <h3 class="hello">
+                  Hello, my name is <span class="name">Anuj Saini</span>
+                </h3>
+                <h3 class="my-profession">
+                  I' m a <span class="typing"></span>
+                </h3>
+                <p>
+                  Greetings! I am Anuj Saini currently a third-year B.Tech
+                  student at Delhi Technological University (DTU), specializing
+                  in Mathematics and Computing Engineering.
+                  <!-- My area of expertise lies in website creation and design, where I seamlessly blend technical proficiency with creative innovation to craft visually appealing and impactful digital experiences.
+                                What sets me apart is not only my academic rigor but also my proactive approach to staying ahead of industry trends, ensuring that I integrate the latest solutions into my web development projects.
+                                Proficient in various programming languages and frameworks, I excel at enhancing website functionality and user experience.
+                                The combination of my academic strength and practical experience positions me as a proactive and versatile individual ready to excel in the field.  -->
+                </p>
+                <a href="#" class="btn">Download CV</a>
+              </div>
+              <!-- 40% flex relative-->
+              <div class="home-img padd-15">
+                <img src="images/Anuj Photo 2.jpg" ref="" title="profile pic" />
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Home section ends -->
+        <!-- About Section -->
+        <!-- block -->
+        <section class="about section" id="about">
+          <div class="container">
+            <!-- flex -->
+            <div class="row">
+              <!-- flex 100% -->
+              <div class="section-title padd-15">
+                <h2>About Me</h2>
+              </div>
+            </div>
+            <div class="row">
+              <!-- flex 100% -->
+              <div class="about-content padd-15">
+                <div class="row">
+                  <div class="about-text">
+                    <h3>
+                      I'm Anuj Saini and <span>Full Stack Web Developer</span>
+                    </h3>
+                    <p>
+                      I am currently a fourth-year B.Tech student at Delhi
+                      Technological University (DTU), specializing in
+                      Mathematics and Computing Engineering. My area of
+                      expertise lies in website creation and design, where I
+                      seamlessly blend technical proficiency with creative
+                      innovation to craft visually appealing and impactful
+                      digital experiences. What sets me apart is not only my
+                      academic rigor but also my proactive approach to staying
+                      ahead of industry trends, ensuring that I integrate the
+                      latest solutions into my web development projects.
+                      Proficient in various programming languages and
+                      frameworks, I excel at enhancing website functionality and
+                      user experience. The combination of my academic strength
+                      and practical experience positions me as a proactive and
+                      versatile individual ready to excel in the field.
+                    </p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="personal-info padd-15">
+                    <div class="row">
+                      <div class="info-item">
+                        <p>Age : <span>20</span></p>
+                      </div>
+                      <div class="info-item">
+                        <p>Website : <span>www.domain.com</span></p>
+                      </div>
+                      <div class="info-item">
+                        <p>Email : <span>anujsaini160@gmail.com</span></p>
+                      </div>
+                      <div class="info-item">
+                        <p>
+                          Degree :
+                          <span>B.tech(Mathematics and Computer Science)</span>
+                        </p>
+                      </div>
+                      <div class="info-item">
+                        <p>Phone : <span>+91-8010701818</span></p>
+                      </div>
+                      <div class="info-item">
+                        <p>City : <span>Delhi</span></p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="buttons padd-15">
+                        <a
+                          href="#contact"
+                          data-section-index="1"
+                          class="btn hire-me"
+                          >Hire Me</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="skills padd-15">
+                    <div class="row">
+                      <div class="skill-item padd-15">
+                        <h5>HTML</h5>
+                        <div class="progress">
+                          <div class="skill-percent">89%</div>
+                          <div class="progress-in" style="width: 89%"></div>
+                        </div>
+                      </div>
+                      <div class="skill-item padd-15">
+                        <h5>CSS</h5>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 89%"></div>
+                          <div class="skill-percent">89%</div>
+                        </div>
+                      </div>
+                      <div class="skill-item padd-15">
+                        <h5>JAVA</h5>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 92%"></div>
+                          <div class="skill-percent">92%</div>
+                        </div>
+                      </div>
+                      <div class="skill-item padd-15">
+                        <h5>JS</h5>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 89%"></div>
+                          <div class="skill-percent">89%</div>
+                        </div>
+                      </div>
+
+                      <div class="skill-item padd-15">
+                        <h5>DBMS</h5>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 90%"></div>
+                          <div class="skill-percent">90%</div>
+                        </div>
+                      </div>
+                      <div class="skill-item padd-15">
+                        <h5>OS</h5>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 92%"></div>
+                          <div class="skill-percent">92%</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="education padd-15">
+                    <h3 class="title">Education</h3>
+                    <div class="row">
+                      <div class="timeline-box padd-15">
+                        <div class="timeline shadow-dark">
+                          <!-- timeline item -->
+                          <div class="timeline-modify">
+                            <div class="timeline-item">
+                              <div class="circle-dot"></div>
+                              <h3 class="timeline-date">
+                                <i class="fa fa-calendar"></i> 2021 - 2025
+                              </h3>
+                              <h4 class="timeline-title">
+                                B.Tech in Mathematics and Computer Science
+                              </h4>
+                              <h4>CGPA: 9.46 | Department Rank: 1</h4>
+                              <p class="timeline-text">
+                                Currently pursuing my B.Tech at Delhi
+                                Technological University (DTU), specializing in
+                                Mathematics and Computing Engineering.
+                                Throughout my academic journey, I have
+                                consistently achieved excellence, holding a CGPA
+                                of 9.46 and securing the 1st rank in my
+                                department. I have gained a strong foundation in
+                                core technical and mathematical subjects,
+                                equipping me with problem-solving and analytical
+                                skills critical to the field of technology.
+                                <br /><br />
+                                <strong>Technical Subjects:</strong> Operating
+                                Systems, Database Management Systems (DBMS),
+                                Computer Networks, Data Structures & Algorithms
+                                (DSA), Computer Organization & Architecture,
+                                Software Engineering, Scientific Computing,
+                                Operations Research, Theory of Computation,
+                                Algorithm Design & Analysis, Cryptography &
+                                Network Security <br /><br />
+                                <strong>Tools:</strong> Matlab, SPSS
+                                <br /><br />
+                                <strong>Programming Languages:</strong> Java,
+                                C++, C, Python <br /><br />
+                                <strong>Core Subjects:</strong> Discrete
+                                Mathematics, Probability & Statistics, Linear
+                                Algebra, Modern Algebra, Financial Engineering,
+                                Differential Equations, Real Analysis,
+                                Stochastic Processes
+                              </p>
+                            </div>
+
+                            <div class="timeline-item">
+                              <div class="circle-dot"></div>
+                              <h3 class="timeline-date">
+                                <i class="fa fa-calendar"></i> Class 12th - 2021
+                              </h3>
+                              <h4 class="timeline-title">KVS Sec 25, Rohini</h4>
+                              <h4>Percentage: 95.2% | Class Rank: 3</h4>
+                              <p class="timeline-text">
+                                Completed my Class 12th in 2021 from KVS Sec 25,
+                                Rohini, securing a percentage of 95.2% and
+                                achieving the 3rd rank in my class.
+                                <br /><br />
+                                <strong>Subjects Studied:</strong> Physics,
+                                Chemistry, Mathematics, Biology, English,
+                                Physical Education
+                              </p>
+                            </div>
+
+                            <!-- timeline item -->
+                            <div class="timeline-item">
+                              <div class="circle-dot"></div>
+                              <h3 class="timeline-date">
+                                <i class="fa fa-calendar"></i>
+                                2019
+                              </h3>
+                              <h4 class="timeline-title">
+                                Class 10th - KVS Sec 25, Rohini
+                              </h4>
+                              <h4>Percentage: 94.8% | Class Rank: 1</h4>
+                              <p class="timeline-text">
+                                Successfully completed Class 10th in 2019 from
+                                KVS Sec 25, Rohini, securing a percentage of
+                                94.8% and achieving 1st rank in my class.
+                                <br /><br />
+                                <strong>Subjects:</strong> Hindi, English,
+                                Mathematics, Science, Social Studies (SST)
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Not required for now -->
+                  <!-- <div class="experience padd-15">
+                                    <h3 class="title">Experience</h3>
+                                    <div class="row">
+                                        <div class="timeline-box padd-15">
+                                            <div class="timeline shadow-dark">
+                                                <div class = "timeline-modify">
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                        <h3 class="timeline-date">
+                                                            <i class="fa fa-calendar"></i>
+                                                            2021 - 2025
+                                                        </h3>
+                                                        <h4 class="timeline-title">B.Tech in Mathematics and Computer Science</h4>
+                                                        <p class="timeline-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quo illo sapiente accusamus assumenda quidem quas quis ullam doloremque quisquam. Mollitia saepe odit tempora maiores suscipit sequi eligendi praesentium quis.
+                                                        </p>
+                                                </div>
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                        <h3 class="timeline-date">
+                                                            <i class="fa fa-calendar"></i>
+                                                            2021 - 2025
+                                                        </h3>
+                                                        <h4 class="timeline-title">B.Tech in Mathematics and Computer Science</h4>
+                                                        <p class="timeline-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quo illo sapiente accusamus assumenda quidem quas quis ullam doloremque quisquam. Mollitia saepe odit tempora maiores suscipit sequi eligendi praesentium quis.
+                                                        </p>
+                                                    </div>
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                        <h3 class="timeline-date">
+                                                            <i class="fa fa-calendar"></i>
+                                                            2021 - 2025
+                                                        </h3>
+                                                        <h4 class="timeline-title">B.Tech in Mathematics and Computer Science</h4>
+                                                        <p class="timeline-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quo illo sapiente accusamus assumenda quidem quas quis ullam doloremque quisquam. Mollitia saepe odit tempora maiores suscipit sequi eligendi praesentium quis.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Project Section Start -->
+        <section class="project section" id="project">
+          <div class="container">
+            <div class="row">
+              <div class="section-title padd-15">
+                <h2>Projects</h2>
+              </div>
+            </div>
+            <div class="row">
+              <!-- Project Items Start -->
+              <div class="project-item padd-15">
+                <div class="project-item-inner">
+                  <div class="icon">
+                    <i class="fa fa-mobile-alt"></i>
+                  </div>
+                  <h4>Project 1</h4>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Cumque consequatur non omnis excepturi possimus aliquid
+                    eaque quidem nam! Doloremque quisquam placeat voluptas
+                    suscipit libero dicta. Velit quibusdam quasi deserunt vero?
+                  </p>
+                </div>
+              </div>
+              <!-- Project Items Ends -->
+              <!-- Project Items Start -->
+              <div class="project-item padd-15">
+                <div class="project-item-inner">
+                  <div class="icon">
+                    <i class="fa fa-laptop-code"></i>
+                  </div>
+                  <h4>Project 2</h4>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Cumque consequatur non omnis excepturi possimus aliquid
+                    eaque quidem nam! Doloremque quisquam placeat voluptas
+                    suscipit libero dicta. Velit quibusdam quasi deserunt vero?
+                  </p>
+                </div>
+              </div>
+              <!-- Project Items Ends -->
+              <!-- Project Items Start -->
+              <div class="project-item padd-15">
+                <div class="project-item-inner">
+                  <div class="icon">
+                    <i class="fa fa-palette"></i>
+                  </div>
+                  <h4>Project 3</h4>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Cumque consequatur non omnis excepturi possimus aliquid
+                    eaque quidem nam! Doloremque quisquam placeat voluptas
+                    suscipit libero dicta. Velit quibusdam quasi deserunt vero?
+                  </p>
+                </div>
+              </div>
+              <!-- Project Items Ends -->
+              <!-- Project Items Start -->
+              <div class="project-item padd-15">
+                <div class="project-item-inner">
+                  <div class="icon">
+                    <i class="fa fa-code"></i>
+                  </div>
+                  <h4>Project 2</h4>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Cumque consequatur non omnis excepturi possimus aliquid
+                    eaque quidem nam! Doloremque quisquam placeat voluptas
+                    suscipit libero dicta. Velit quibusdam quasi deserunt vero?
+                  </p>
+                </div>
+              </div>
+              <!-- Project Items Ends -->
+              <!-- Project Items Start -->
+              <div class="project-item padd-15">
+                <div class="project-item-inner">
+                  <div class="icon">
+                    <i class="fa fa-search"></i>
+                  </div>
+                  <h4>Project 2</h4>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Cumque consequatur non omnis excepturi possimus aliquid
+                    eaque quidem nam! Doloremque quisquam placeat voluptas
+                    suscipit libero dicta. Velit quibusdam quasi deserunt vero?
+                  </p>
+                </div>
+              </div>
+              <!-- Project Items Ends -->
+              <!-- Project Items Start -->
+              <div class="project-item padd-15">
+                <div class="project-item-inner">
+                  <div class="icon">
+                    <i class="fa fa-bullhorn"></i>
+                  </div>
+                  <h4>Project 2</h4>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Cumque consequatur non omnis excepturi possimus aliquid
+                    eaque quidem nam! Doloremque quisquam placeat voluptas
+                    suscipit libero dicta. Velit quibusdam quasi deserunt vero?
+                  </p>
+                </div>
+              </div>
+              <!-- Project Items Ends -->
+            </div>
+          </div>
+        </section>
+        <!-- Project Section Ends -->
+        <!-- Portfolio Section Starts -->
+        <section class="portfolio section" id="portfolio">
+          <div class="container">
+            <div class="row">
+              <div class="section-title padd-15">
+                <h2>Portfolio</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="portfolio-heading padd-15">
+                <h2>My Projects :</h2>
+              </div>
+            </div>
+            <div class="row">
+              <!-- portfolio item start -->
+              <div class="portfolio-item padd-15">
+                <div class="portfolio-item-inner shadow-dark">
+                  <div class="portfolio-img">
+                    <img src="images\portfolio\portfolio-1.jpg" alt="" />
+                  </div>
+                </div>
+              </div>
+              <!-- portfolio item end -->
+              <!-- portfolio item start -->
+              <div class="portfolio-item padd-15">
+                <div class="portfolio-item-inner shadow-dark">
+                  <div class="portfolio-img">
+                    <img src="images\portfolio\portfolio-2.jpg" alt="" />
+                  </div>
+                </div>
+              </div>
+              <!-- portfolio item end -->
+              <!-- portfolio item start -->
+              <div class="portfolio-item padd-15">
+                <div class="portfolio-item-inner shadow-dark">
+                  <div class="portfolio-img">
+                    <img src="images\portfolio\portfolio-3.jpg" alt="" />
+                  </div>
+                </div>
+              </div>
+              <!-- portfolio item end -->
+              <!-- portfolio item start -->
+              <div class="portfolio-item padd-15">
+                <div class="portfolio-item-inner shadow-dark">
+                  <div class="portfolio-img">
+                    <img src="images\portfolio\portfolio-4.jpg" alt="" />
+                  </div>
+                </div>
+              </div>
+              <!-- portfolio item end -->
+              <!-- portfolio item start -->
+              <div class="portfolio-item padd-15">
+                <div class="portfolio-item-inner shadow-dark">
+                  <div class="portfolio-img">
+                    <img src="images\portfolio\portfolio-5.jpg" alt="" />
+                  </div>
+                </div>
+              </div>
+              <!-- portfolio item end -->
+              <!-- portfolio item start -->
+              <div class="portfolio-item padd-15">
+                <div class="portfolio-item-inner shadow-dark">
+                  <div class="portfolio-img">
+                    <img src="images\portfolio\portfolio-6.jpg" alt="" />
+                  </div>
+                </div>
+              </div>
+              <!-- portfolio item end -->
+            </div>
+          </div>
+        </section>
+        <!-- Portfolio Section Ends -->
+
+        <!-- Contact Section Starts -->
+        <section class="contact section" id="contact">
+          <div class="container">
+            <div class="row">
+              <div class="section-title padd-15">
+                <h2>Contact Me</h2>
+              </div>
+            </div>
+            <h3 class="contact-title">Have You And Questions?</h3>
+            <h4 class="contact-sub-title">I'M AT YOUR SERVICES</h4>
+            <div class="row">
+              <!-- Contact Info Item Start-->
+              <div class="contact-info-item padd-15">
+                <div class="icon"><i class="fa fa-phone"></i></div>
+                <h4>Call Me On</h4>
+                <p>+91-8010701818</p>
+              </div>
+              <!-- Contact Info Item End-->
+              <!-- Contact Info Item Start-->
+              <div class="contact-info-item padd-15">
+                <div class="icon"><i class="fa fa-map-marker-alt"></i></div>
+                <h4>Location</h4>
+                <p>Delhi</p>
+              </div>
+              <!-- Contact Info Item End-->
+              <!-- Contact Info Item Start-->
+              <div class="contact-info-item padd-15">
+                <div class="icon"><i class="fa fa-envelope"></i></div>
+                <h4>Email</h4>
+                <p>anujsaini160@gmail.com</p>
+              </div>
+              <!-- Contact Info Item End-->
+              <!-- Contact Info Item Start-->
+              <div class="contact-info-item padd-15">
+                <div class="icon"><i class="fa fa-globe-europe"></i></div>
+                <h4>Portfolio</h4>
+                <p>www.domail.com</p>
+              </div>
+              <!-- Contact Info Item End-->
+            </div>
+            <h3 class="contact-title">SEND ME AN EMAIL</h3>
+            <h4 class="contact-sub-title">I'M VERY RESPONSIVE TO MESSAGES</h4>
+            <!-- Contact Form -->
+            <div class="row">
+              <div class="contact-form padd-15">
+                <div class="row">
+                  <div class="form-item col-6 padd-15">
+                    <div class="form-group">
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Name"
+                      />
+                    </div>
+                  </div>
+                  <div class="form-item col-6 padd-15">
+                    <div class="form-group">
+                      <input
+                        type="email"
+                        class="form-control"
+                        placeholder="Email"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="form-item col-12 padd-15">
+                    <div class="form-group">
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Subject"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="form-item col-12 padd-15">
+                    <div class="form-group">
+                      <textarea
+                        name=""
+                        class="form-control"
+                        id=""
+                        placeholder="Message"
+                      ></textarea>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="form-item col-12 padd-15">
+                    <buttom type="submit" class="btn">Send Message</buttom>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Contact Section Ends -->
+      </div>
+      <!-- Main Container Ends -->
+    </div>
+    <!-- Style Switcher Starts -->
+    <div class="style-switcher">
+      <div class="style-switcher-toogler s-icon">
+        <i class="fas fa-cog fa-spin"></i>
+      </div>
+      <div class="day-night s-icon">
+        <i class="fas fa-moon"></i>
+      </div>
+      <h4>Theme Colors</h4>
+      <div class="colors">
+        <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+        <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+        <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+        <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+        <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+      </div>
+    </div>
+    <!-- Style Switcher Ends -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"
+      integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="js/script.js"></script>
+    <script src="js/style-switcher.js"></script>
+  </body>
+</html>
